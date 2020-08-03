@@ -11,7 +11,7 @@ module.exports = {
         index: path.resolve(__dirname, 'src', 'index.tsx')
     },
     output: {
-        path: path.join(__dirname, '/dist'),
+        path: path.join(__dirname, '/build'),
         filename: appName + '[hash:8].js',
         chunkFilename: appName + '[name].[hash:8].js'
     },
