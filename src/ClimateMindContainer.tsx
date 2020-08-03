@@ -1,7 +1,7 @@
 import React from 'react';
 import './climateMindContainer.scss';
 import Text from './components/Text';
-import { ReactComponent as Logo } from './assets/cm-logo.svg';
+import CMLogo from './assets/CMLogo';
 import Button from './components/Button';
 
 const ClimateMindContainer = () => {
@@ -18,7 +18,7 @@ const ClimateMindContainer = () => {
         >
           <span>Welcome to</span>
         </Text>
-        <Logo data-testid="climate-mind-logo" style={{ paddingTop: 20 }} />
+        <CMLogo data-testid="climate-mind-logo" style={{ paddingTop: 20 }} />
       </div>
       <Text
         fontFamily={'atten-round-new, sans-serif'}
