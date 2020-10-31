@@ -1,0 +1,15 @@
+version: "3"
+services:
+  web:
+    build: .
+    ports:
+      - "8080:3000"
+    volumes:
+      - .:/app
+    environment:
+      env_file: .env
+      NODE_ENV: development
+      REACT_APP_API_URL: http://localhost:5000
+    stdin_open: true
+    tty: true
+
